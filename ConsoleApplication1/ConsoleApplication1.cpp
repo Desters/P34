@@ -10,4 +10,5 @@ int main() {
     SetConsoleOutputCP(1251);
     const std::string text = "Вітаю!";
     std::cout << text << std::endl;
+    std::cout << rand() % 1000 << std::endl;
 }
